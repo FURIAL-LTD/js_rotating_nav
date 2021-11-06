@@ -4,15 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 
 <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
 
+        <div class="content">
+            <h1>Post title</h1>
+            <small>Popeye Biggz</small>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil laborum ducimus veniam assumenda.
+                Accusantium recusandae voluptatem odio illum nobis alias est illo quia cupiditate deserunt? Earum saepe
+                harum quis qui voluptatibus libero delectus officii doloremque laborum
+                impedit?</p>
+            <h3>Picture</h3>
+            <img src="https://unsplash.com/photos/gVeDEwz73ZM/download?ixid=MnwxMjA3fDB8MXxhbGx8MTV8fHx8fHwyfHwxNjM2MjM1OTI5&force=true&w=640"
+                alt="Jeep in a beach" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quisquam totam molestiae sint iure, magnam
+                perspiciatis neque ea deserunt incidunt sapiente maxime aliquid.</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+            <li><i class="fas fa-user-alt"></i><a href="#">About</a></li>
+            <li><i class="fas fa-envelope"></i><a href="#">Home</a></li>
+        </ul>
+    </nav>
     <script src="script.js"></script>
 </body>
 
